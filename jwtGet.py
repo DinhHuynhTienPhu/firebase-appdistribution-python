@@ -67,6 +67,7 @@ print("************* ************* *************\n\n")
 
 #the valuse is from the service account key json file downloaded from google 
 #read more at: https://developers.google.com/identity/protocols/oauth2/service-account#httprest
+# when create service accout, rember to give it access to the project, best to give it the role "owner", or at least  give it the role that can access the app distribution. DO NOT LET THE ROLE OPTION EMPTY
 values={
   "type": "service_account",
   "project_id": "tic-tac-toe-something",
